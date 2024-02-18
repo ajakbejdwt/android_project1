@@ -27,10 +27,17 @@
                 android:textAlignment="center"
                 android:textSize="20sp" />
 
-            <VideoView
-                android:id="@+id/videoView"
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <TextureView
+                android:id="@+id/textureView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
         </LinearLayout>
     </ScrollView>
 
